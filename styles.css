@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./IMG/Fondo\ 1.jpg");
+  background-size: cover;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+.img-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding-left: 15%;
+  margin-top: 10px;
+}
+
+main {
+  max-width: 700px;
+}
+
+#main-slot {
+  padding: 0;
+  border: 0;
+  /* font-weight: bold; */
+  font-size: 100%;
+  text-align: justify;
+  vertical-align: baseline;
+  line-height: 25px;
+}
+
+#main-slot a {
+  color: cornflowerblue;
+  font-weight: bolder;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+}
+
+.show-password {
+  float: right;
+}
+
+.password-conditions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.password-conditions ul {
+  list-style: circle;
+}
+
+#create-account {
+  pointer-events: none;
+  border: 1px solid #dedddc;
+  color: #bdbbb9;
+  background-color: transparent;
+  width: 90px;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  width: 600px;
+}

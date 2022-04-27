@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Sing Up Mailchimp</title>
+  </head>
+  <body>
+    <div>
+        <img src="./SVG/mailchimp-mailchimp-new-logo-115632101427ghmpi6svo.svg" alt="Mailchimp-Logo" class="img-logo">
+    </div>
+    <div class="form-container">
+      <main id="main-slot">
+        <div>
+          <div class="form-container">
+            <h1 id="tittle1">Welcome to Mailchimpn</h1>
+            <p>
+              <span>
+                Find your people. Engage your costumers. Build your brand. Do it
+                all with Mailchimp's Marketing Platform. Already have a account?
+                <a href="">Log in</a>
+              </span>
+            </p>
+            <form action="" method="post">
+              <div class="form">
+                <div class="line line__input">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="user_email"
+                    pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$"
+                    required
+                  />
+                </div>
+                <div class="line line__input">
+                  <label for="user-name">Username</label>
+                  <input type="text" id="user-name" name="user"/>
+                </div>
+                <div class="line line__input">
+                  <div>
+                    <div>
+                      <label for="password">Password</label>
+                      <div class="show-password">
+                        <input
+                          type="checkbox"
+                          name="show-password"
+                          id="show-password"
+                        />
+                        <label for="show-password" title="show-password"
+                          >Show Password</label
+                        >
+                      </div>
+                      <div>
+                        <input
+                          type="password"
+                          id="password"
+                          name="user_password"
+                          required
+                          pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                          title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number."
+                          minlength="8"
+                          maxlength="16"
+                          size="84"
+                        />
+                        <div class="password-conditions">
+                          <ul>
+                            <li>One lowercase character</li>
+                            <li>One uppercase character</li>
+                            <li>One number</li>
+                          </ul>
+                          <ul>
+                            <li>One special character</li>
+                            <li>8 characters minimun</li>
+                            <li>16 characters maximum</li>
+                          </ul>
+                        </div>
+                        <div>
+                          <input
+                            type="checkbox"
+                            name="term-service"
+                            id="term-service"
+                          />
+                          <label for="term-service"
+                            >I don´t want to recive emails about Mailchimp and
+                            related Intuit product and feature updates,
+                            marketing best practices and promotions from
+                            Mailchimp.</label
+                          >
+                          <p>
+                            By creating an account, you agree to our
+                            <a href="">Terms</a> and have read and acknowledge
+                            the <a href="">Global Privacy Statement.</a>
+                          </p>
+                          <div>
+                            <button
+                            id="create-account"
+                            value="Create my acconut">Sing up</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
